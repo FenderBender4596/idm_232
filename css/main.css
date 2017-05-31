@@ -1,0 +1,220 @@
+html {
+	background-color: #fff8e8;
+	max-width: 100%;
+	overflow-x: hidden;
+
+}
+
+* {
+box-sizing: border-box;
+margin: 0 auto;
+padding: 0;
+}
+
+.nav {
+	font-family: 'Oswald', sans-serif;
+	background-color: #7F7B82;
+	color: #fff;
+	font-size: 30px;
+	position: fixed;
+	width: 100%;
+	height: auto;
+	z-index: 3;
+}
+
+
+.navBar {
+	display: flex;
+	position: fixed;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	width: 100px;
+	height: 150px;
+	list-style-type: none;
+	opacity: 0;
+	pointer-events: none;
+	top: 45px;
+	left: -10%;
+	transition: .5s ease;
+	background-color: #172121;
+}
+
+.menuButton {
+	position: fixed;
+	top: -10px;
+	color: #fff8e8;
+}
+
+.showMenu {
+	opacity: 1;
+	pointer-events: auto;
+	left: 1em;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	box-shadow: black 5rem;
+}
+
+a:hover {
+	color: #444554;
+	transition: 200ms;
+}
+
+.logo{ 
+	position: fixed;
+	top: -105px;
+ }
+
+.heroImg {
+	width: 100%;
+}
+
+.textBox {
+	display: block;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	background-color: #444554;
+	color: #fff;
+	top: -15px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.mySlides {
+	position: relative;
+	width: 100%;
+	top: -15px;
+}
+
+.listItems {
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	margin: 5px;
+	background-color: rgba(127, 123, 130, .4);
+	position: relative;
+	top: -20px;
+}
+
+ul {
+	list-style: none;
+}
+
+.contactMe {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	background-color: #172121;
+	position: relative;
+	padding-top: 20px;
+	top: -25px;
+}
+
+.contactInfo {
+	position: relative;
+	top: -10px;
+	color: #fff;
+}
+
+.bioBox {
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 300px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+.dad {
+	width: 80%;
+	position: relative;
+	left: 40px;
+	top: 10px;
+	z-index: -1;
+}
+
+.textBoxes {
+	display: flex;
+	flex-flow: column;
+	position: relative;
+	top: -200px;	
+}
+
+.textbox {
+	width: 300px;
+	height: 100px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+}
+
+.expertBox {
+	list-style: circle;
+	background-color: rgba(127, 123, 130, .4);
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	margin-bottom: 250px;
+}
+
+@media screen and (min-width: 1024px) {
+	.navBar {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30rem;
+    align-items: flex-end;
+    flex-flow: row;
+    opacity: 1;
+    position: initial;
+    left: auto;
+    width: auto;
+    background-color: #7F7B82;
+    height: 100px
+	}
+	.menu_button {
+		display: none;
+	}
+	.logo {
+		top: -50px;
+	}
+	.heroImg {
+		width: 60%;
+		position: relative;
+		left: 20%;
+	}
+	.textBox{
+		font-size: 36px;
+	}
+	.mySlides {
+		width: 60%;
+	}
+	.listItems {
+		font-size: 20px;
+		top: -220px;
+		margin-bottom: -195px;
+	}
+	.dad {
+		width: 40%;
+		left: 400px;
+	}
+	.bioBox {
+		margin-left: 250px;
+		margin-right: 250px;
+	}
+
+}
+
