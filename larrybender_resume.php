@@ -35,11 +35,11 @@
 <div class="wrapper">
 <div class="container">
 
-<h1>Resume</h1>
+<div class="textBox">Resume</div>
 <br>
-<h2>Areas Of Expertise</h2>
+<h1>Areas Of Expertise</h1>
 <br>
-<div class="expertBox">
+<div class="listItems">
 	<ul>
 		<li>Leadership</li>
 		<li>Management and mentoring</li>
@@ -57,6 +57,106 @@
 		<li>Adobe Creative Suite</li>
 	</ul>
 </div>
+
+<div class="textBox">Career</div>
+
+<div class="listItems">
+	<h1>2007-Present: Creative Director</h1>
+	<br>
+	<h2>Communications and Marketing, Enrollment Management and Student Success, Drexel University, Philadelphia, PA</h2>
+	<ul>
+		<li>Work with key stakeholders within the department and University communities, to develop and implement complex multichannel marketing strategies and communication sequences that directly impact the University’s strategic goals</li>
+		<li>Creative oversight for all projects within the Division of Enrollment Management and Student Success</li>
+		<li>Responsible for production on all departmental projects from initial concept through final delivery</li>
+		<li>Brand steward</li>
+		<li>Design high-profile projects that include both print and electronic communications</li>
+		<li>Budget management, negotiation and oversight of over $1,000,000 for print, mail, photography, and video development</li>
+		<li>Hire, manage, mentor, and set direction for in-house creative staff of 7 that includes designers, editors, and videographer</li>
+		<li>Maintain relationships with outside vendors</li>
+	</ul>
+	<br>
+	<h1>1998-2001: Senior Graphic Designer</h1>
+	<br>
+	<h2>Regional Communications Department Alleghney University of Health Sciences</h2>
+	<ul>
+		<li>Designed and produced recruitment materials from concept through completion for Drexel University. Projects included web site design and development, viewbooks, catalogs, brochures, posters, direct mail advertising, search materials, CD-ROMs, and multimedia presentations</li>
+		<li>Managed photo sessions</li>
+		<li>Prepared files for the printer</li>
+		<li>Worked with clients to develop concepts</li>
+	</ul>
+	<br>
+	<h1>1989-1991: Graphic Designer</h1>
+	<br>
+	<h2>Portfolio Marketing Group, Philadelphia, PA</h2>
+	<ul>
+		<li>Designed and produced materials for retail advertising including directories, catalogs, posters, |and advertisements</li>
+		<li>Designed and produced corporate brochures and collateral pieces</li>
+	</ul>
+	<br>
+</div>
+
+<div class="textBox">Education</div>
+
+<div class="listItems">
+	<h1>1984-1992: Parsons School Of Design and Otis Art Institute of Parsons School Of Design</h1>
+	<br>
+	<h2>New York, NY and Los Angeles, CA</h2>
+	<ul>
+		<li>Bachelor of Fine Art</li>
+	</ul>
+</div>
+
+<div class="textBox">Awards and Honors</div>
+
+<div class="listItems">
+	<h1>Drexel University's Presidents Award 2010-2012</h1>
+	<br>
+	<h1>Telly Awards</h1>
+	<ul>
+		<li>31st Annual - Bronze</li>
+		<li>33rd Annual - Double Bronze</li>
+		<li>35th Annual - Double Bronze</li>
+	</ul>
+	<br>
+	<h1>Admissions Advertising Awards</h1>
+	<ul>
+		<li>19 Annual - Gold Award</li>
+		<li>20 Annual - Merit Award</li>
+		<li>21 Annual - Silver and Merit Awards</li>
+		<li>22 Annual - Silver, Bronze, and Merit Awards</li>
+		<li>23 Annual - Merit Award</li>
+		<li>24 Annual - Merit Award</li>
+		<li>27 Annual - Gold Award</li>
+	</ul>
+	<br>
+	<h1>Awards for Publication Excellence</h1>
+	<ul>
+		<li>2007 Award of Excellence</li>
+		<li>2008 Award of Excellence</li>
+	</ul>
+	<br>
+	<h1>Beacon Awards</h1>
+	<ul>
+		<li>2005 Direct Mail Awards Finalist</li>
+		<li>2008 Gold Beacon Awards Finalist</li>
+	</ul>
+	<br>
+	<h1>Service Industry Advertising Awards</h1>
+	<ul>
+		<li>2005 - Merit Award</li>
+		<li>2006 - Silver and Merit Awards</li>
+		<li>2007 - Silver and Merit Awards</li>
+	</ul>
+	<br>
+	<h1>Cuppie Awards</h1>
+	<ul>
+		<li>2013 - Double Bronze</li>
+		<li>2015 - Gold, Silver, Double Bronze</li>
+		<li>2016 - Double Silver</li>
+	</ul>
+</div>
+
+</div>	
 
 </div>	
 </div>

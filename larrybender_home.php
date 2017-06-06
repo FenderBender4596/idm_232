@@ -43,56 +43,6 @@
 <img class="mySlides" src="img/slide2.jpg" alt="slide2">
 <img class="mySlides" src="img/slide3.jpg" alt="slide3">
 
-<div class="textBox">Awards and Honors</div>
-
-<div class="listItems">
-	<h1>Drexel University's Presidents Award 2010-2012</h1>
-	<br>
-	<h1>Telly Awards</h1>
-	<ul>
-		<li>31st Annual - Bronze</li>
-		<li>33rd Annual - Double Bronze</li>
-		<li>35th Annual - Double Bronze</li>
-	</ul>
-	<br>
-	<h1>Admissions Advertising Awards</h1>
-	<ul>
-		<li>19 Annual - Gold Award</li>
-		<li>20 Annual - Merit Award</li>
-		<li>21 Annual - Silver and Merit Awards</li>
-		<li>22 Annual - Silver, Bronze, and Merit Awards</li>
-		<li>23 Annual - Merit Award</li>
-		<li>24 Annual - Merit Award</li>
-		<li>27 Annual - Gold Award</li>
-	</ul>
-	<br>
-	<h1>Awards for Publication Excellence</h1>
-	<ul>
-		<li>2007 Award of Excellence</li>
-		<li>2008 Award of Excellence</li>
-	</ul>
-	<br>
-	<h1>Beacon Awards</h1>
-	<ul>
-		<li>2005 Direct Mail Awards Finalist</li>
-		<li>2008 Gold Beacon Awards Finalist</li>
-	</ul>
-	<br>
-	<h1>Service Industry Advertising Awards</h1>
-	<ul>
-		<li>2005 - Merit Award</li>
-		<li>2006 - Silver and Merit Awards</li>
-		<li>2007 - Silver and Merit Awards</li>
-	</ul>
-	<br>
-	<h1>Cuppie Awards</h1>
-	<ul>
-		<li>2013 - Double Bronze</li>
-		<li>2015 - Gold, Silver, Double Bronze</li>
-		<li>2016 - Double Silver</li>
-	</ul>
-</div>
-
 </div>	
 </div>
 
