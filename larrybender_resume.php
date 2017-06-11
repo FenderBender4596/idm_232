@@ -1,3 +1,4 @@
+<?php include 'includes/larryResumeData.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,40 +61,30 @@
 
 <div class="textBox">Career</div>
 
+<?php 
+$query = "SELECT * FROM larry_resume";
+$result = mysqli_query($connection, $query);
+
+while ($row = mysqli_fetch_assoc($result)) {
+	// $startYear = $row['start_year'];
+	// $endYear = $row['end_year'];
+	// $job = $row['job'];
+	// $wrkStuff = $row['duties'];
+	// $skills = $row['skills'];
+
+	echo "<p>Date 1: " . $row['start_year'] . "</p>";
+	echo "<p>Date 2: " . $row['end_year'] . "</p>";
+	echo "<hr>";
+}
+ ?>
+
 <div class="listItems">
-	<h1>2007-Present: Creative Director</h1>
+	<h1><?php echo $startYear.$endYear.$job;?></h1>
 	<br>
-	<h2>Communications and Marketing, Enrollment Management and Student Success, Drexel University, Philadelphia, PA</h2>
-	<ul>
-		<li>Work with key stakeholders within the department and University communities, to develop and implement complex multichannel marketing strategies and communication sequences that directly impact the University’s strategic goals</li>
-		<li>Creative oversight for all projects within the Division of Enrollment Management and Student Success</li>
-		<li>Responsible for production on all departmental projects from initial concept through final delivery</li>
-		<li>Brand steward</li>
-		<li>Design high-profile projects that include both print and electronic communications</li>
-		<li>Budget management, negotiation and oversight of over $1,000,000 for print, mail, photography, and video development</li>
-		<li>Hire, manage, mentor, and set direction for in-house creative staff of 7 that includes designers, editors, and videographer</li>
-		<li>Maintain relationships with outside vendors</li>
-	</ul>
-	<br>
-	<h1>1998-2001: Senior Graphic Designer</h1>
-	<br>
-	<h2>Regional Communications Department Alleghney University of Health Sciences</h2>
-	<ul>
-		<li>Designed and produced recruitment materials from concept through completion for Drexel University. Projects included web site design and development, viewbooks, catalogs, brochures, posters, direct mail advertising, search materials, CD-ROMs, and multimedia presentations</li>
-		<li>Managed photo sessions</li>
-		<li>Prepared files for the printer</li>
-		<li>Worked with clients to develop concepts</li>
-	</ul>
-	<br>
-	<h1>1989-1991: Graphic Designer</h1>
-	<br>
-	<h2>Portfolio Marketing Group, Philadelphia, PA</h2>
-	<ul>
-		<li>Designed and produced materials for retail advertising including directories, catalogs, posters, |and advertisements</li>
-		<li>Designed and produced corporate brochures and collateral pieces</li>
-	</ul>
-	<br>
+	<h2><?php echo $wrkStuff;?></h2>
+	<p><?php echo $skills;?></p>
 </div>
+
 
 <div class="textBox">Education</div>
 

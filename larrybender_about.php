@@ -35,31 +35,65 @@
 <div class="wrapper">
 <div class="container">
 
-<div class="cont2">
 <img class="dad" src="img/me.jpg" alt="larrybender">
-<h1>About</h1>
+<h1 class="aboutHead">About</h1>
 
-<div class="bioBox">
+<p class="bioBoxes">
 I am a graduate of Parsons School of Design, with over 20 years of design and marketing experience and have working for agency, non-profits, and institutes of higher education. As Creative Director and founding member for Drexel University’s award winning Communications and Marketing team, I have helped to guide the university’s brand and marketing efforts. 
  
 My expertise includes print and electronic media, as well as having art directed both commercial and video projects. During my tenure at Drexel the team has been recognized and won numerous Telly’s, Communicators, Admission Advertising, Beacon, and Cuppie Awards.
-</div>
+</p> 
 
-<div class="textBoxes">
+<form class="contactForm" name="contactform" method="post" action="send_form_email.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input class="submit" type="submit" value="Submit">
+ </td>
+</tr>
+</table>
+</form>	
 
-    <input class="fname" name="fname" type="text" placeholder="first name" required>
-	<input class="lname" name="lname" type="text" placeholder="last name" required>
-	<input class="email" name="email" type="text" placeholder="johndoh@myemail.com" required>
-	<br>
-	<input class="textbox" name="textbox" type="text" required>
-	<br>
-	<input class="submit" name="submit" type="submit">
-
-</form>
-	
-</div>
-
-</div>
 </div>	
 </div>
 
