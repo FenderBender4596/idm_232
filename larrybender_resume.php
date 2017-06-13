@@ -36,11 +36,12 @@
 <div class="wrapper">
 <div class="container">
 
-<div class="textBox">Resume</div>
+<div class="resume">
+<h1 class="resumeHeader">Resume</h1>
+<div class="listItems">
 <br>
 <h1>Areas Of Expertise</h1>
 <br>
-<div class="listItems">
 	<ul>
 		<li>Leadership</li>
 		<li>Management and mentoring</li>
@@ -57,9 +58,8 @@
 		<li>Full Uunderstanding of enrollment funnel and student life cycle</li>
 		<li>Adobe Creative Suite</li>
 	</ul>
-</div>
-
-<div class="textBox">Career</div>
+<br>
+<h1>Career</h1>
 
 <?php 
 $query = "SELECT * FROM larry_resume";
@@ -78,38 +78,33 @@ while ($row = mysqli_fetch_assoc($result)) {
 }
  ?>
 
-<div class="listItems">
-	<h1><?php echo $startYear.$endYear.$job;?></h1>
+	<h2><?php echo $startYear.$endYear.$job;?></h2>
 	<br>
 	<h2><?php echo $wrkStuff;?></h2>
 	<p><?php echo $skills;?></p>
-</div>
 
 
-<div class="textBox">Education</div>
+<h1>Education</h1>
 
-<div class="listItems">
-	<h1>1984-1992: Parsons School Of Design and Otis Art Institute of Parsons School Of Design</h1>
+	<h2>1984-1992: Parsons School Of Design and Otis Art Institute of Parsons School Of Design</h2>
 	<br>
 	<h2>New York, NY and Los Angeles, CA</h2>
 	<ul>
 		<li>Bachelor of Fine Art</li>
 	</ul>
-</div>
 
-<div class="textBox">Awards and Honors</div>
+<h1>Awards and Honors</h1>
 
-<div class="listItems">
-	<h1>Drexel University's Presidents Award 2010-2012</h1>
+	<h2>Drexel University's Presidents Award 2010-2012</h2>
 	<br>
-	<h1>Telly Awards</h1>
+	<h2>Telly Awards</h2>
 	<ul>
 		<li>31st Annual - Bronze</li>
 		<li>33rd Annual - Double Bronze</li>
 		<li>35th Annual - Double Bronze</li>
 	</ul>
 	<br>
-	<h1>Admissions Advertising Awards</h1>
+	<h2>Admissions Advertising Awards</h2>
 	<ul>
 		<li>19 Annual - Gold Award</li>
 		<li>20 Annual - Merit Award</li>
@@ -120,35 +115,34 @@ while ($row = mysqli_fetch_assoc($result)) {
 		<li>27 Annual - Gold Award</li>
 	</ul>
 	<br>
-	<h1>Awards for Publication Excellence</h1>
+	<h2>Awards for Publication Excellence</h2>
 	<ul>
 		<li>2007 Award of Excellence</li>
 		<li>2008 Award of Excellence</li>
 	</ul>
 	<br>
-	<h1>Beacon Awards</h1>
+	<h2>Beacon Awards</h2>
 	<ul>
 		<li>2005 Direct Mail Awards Finalist</li>
 		<li>2008 Gold Beacon Awards Finalist</li>
 	</ul>
 	<br>
-	<h1>Service Industry Advertising Awards</h1>
+	<h2>Service Industry Advertising Awards</h2>
 	<ul>
 		<li>2005 - Merit Award</li>
 		<li>2006 - Silver and Merit Awards</li>
 		<li>2007 - Silver and Merit Awards</li>
 	</ul>
 	<br>
-	<h1>Cuppie Awards</h1>
+	<h2>Cuppie Awards</h2>
 	<ul>
 		<li>2013 - Double Bronze</li>
 		<li>2015 - Gold, Silver, Double Bronze</li>
 		<li>2016 - Double Silver</li>
 	</ul>
-</div>
 
 </div>	
-
+</div>
 </div>	
 </div>
 

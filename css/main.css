@@ -102,8 +102,11 @@ a:hover {
 	margin: 5px;
 	background-color: rgba(127, 123, 130, .4);
 	position: relative;
-	top: -20px;
 }
+
+	.resume{
+		margin-top: 40px;
+	}
 
 ul {
 	list-style: none;
@@ -123,14 +126,12 @@ ul {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	background-color: #172121;
-	position: relative;
-	padding-top: 20px;
-	top: -25px;
+	width: 100%;
+	padding: 20px 0 20px 0;
 }
 
 .contactInfo {
 	position: relative;
-	top: -10px;
 	color: #fff;
 }
 
@@ -138,6 +139,9 @@ ul {
 h1 {
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
+	background-color: #444554;
+	color: #f7f7f7;
+	width: 100%;
 }
 
 .dad {
@@ -208,13 +212,14 @@ h2 {
 	}
 	.textBox{
 		font-size: 36px;
+
 	}
 	.mySlides {
 		width: 60%;
 	}
 	.listItems {
 		font-size: 20px;
-		top: -220px;
+		margin-top: -1px;
 		margin-bottom: -195px;
 	}
 	.dad {
@@ -225,6 +230,12 @@ h2 {
 	.bioBoxes {
 		margin-left: 250px;
 		margin-right: 250px;
+	}
+	.resume{
+		margin-top: 100px;
+	}
+	.resumeHeader{
+		font-size: 72px;
 	}
 
 }
