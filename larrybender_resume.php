@@ -61,6 +61,7 @@
 <br>
 <h1>Career</h1>
 
+<div class="career">
 <?php 
 $query = "SELECT * FROM larry_resume";
 $result = mysqli_query($connection, $query);
@@ -71,18 +72,16 @@ while ($row = mysqli_fetch_assoc($result)) {
 	// $job = $row['job'];
 	// $wrkStuff = $row['duties'];
 	// $skills = $row['skills'];
-
-	echo "<p>Date 1: " . $row['start_year'] . "</p>";
-	echo "<p>Date 2: " . $row['end_year'] . "</p>";
 	echo "<hr>";
+	echo "<p>" . $row['end_year'] . " - " . $row['start_year'] . ":</p>"; 
+	echo "<p>" . $row['job'] . "</p>";
+	echo "<p>" . $row['duties'] . "</p>";
+	echo "<p>" . $row['skills'] . "</p>";
+	echo "<hr>";
+
 }
  ?>
-
-	<h2><?php echo $startYear.$endYear.$job;?></h2>
-	<br>
-	<h2><?php echo $wrkStuff;?></h2>
-	<p><?php echo $skills;?></p>
-
+</div>
 
 <h1>Education</h1>
 

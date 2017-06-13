@@ -2,6 +2,7 @@ html {
 	background-color: #fff8e8;
 	max-width: 100%;
 	overflow-x: hidden;
+	height: auto;
 
 }
 
@@ -53,6 +54,7 @@ padding: 0;
 .wrapper {
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 
 a {
@@ -99,7 +101,7 @@ a:hover {
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	font-size: 12px;
-	margin: 5px;
+	margin: 0 auto;
 	background-color: rgba(127, 123, 130, .4);
 	position: relative;
 }
@@ -185,6 +187,12 @@ h2 {
 	height: 100px;
 }
 
+.career {
+	margin: 0 10px 0 10px;
+	font-size: 16px;
+	text-align: left;
+}
+
 @media screen and (min-width: 1024px) {
 	.navBar {
     display: flex;
@@ -220,8 +228,7 @@ h2 {
 	.listItems {
 		font-size: 20px;
 		margin-top: -1px;
-		margin-bottom: -195px;
-	}
+		margin-bottom: -195px;}
 	.dad {
 		width: 40%;
 		left: 400px;
