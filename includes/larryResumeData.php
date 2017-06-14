@@ -1,8 +1,20 @@
 <?php  
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "root";
-$dbname = "idm232_larry";
+$host = $_SERVER['HTTP_HOST'];
+if ($host == 'localhost') {
+  // Local database credentials
+  $dbhost = "localhost";
+  $dbuser = "root";
+  $dbpass = "root";
+  $dbname = "idm232_larry";
+}
+else {
+  // Remote database credentials
+  $dbhost = "localhost";
+  $dbuser = "jacob4596";
+  $dbpass = "kody4596";
+  $dbname = "idm232_larry";
+}
+
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 if (mysqli_connect_errno()) {

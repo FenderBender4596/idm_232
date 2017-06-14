@@ -76,6 +76,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 	echo "<p>" . $row['end_year'] . " - " . $row['start_year'] . ":</p>"; 
 	echo "<p>" . $row['job'] . "</p>";
 	echo "<p>" . $row['duties'] . "</p>";
+	echo "<br>";
 	echo "<p>" . $row['skills'] . "</p>";
 	echo "<hr>";
 
