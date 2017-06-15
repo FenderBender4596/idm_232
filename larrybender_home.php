@@ -35,13 +35,23 @@
 <div class="wrapper">
 <div class="container">
 
-<img class="heroImg" src="img/frontpage.jpg" alt="this_is_not_a_wall">
+<img class="heroImg" src="img/hero.jpg" alt="this_is_not_a_wall">
 
-<div class="textBox">Designer, Photographer, Creative Director</div>
+<div class="textBox">Creator, Designer, Leader</div>
 
-<img class="mySlides" src="img/slide1.jpg" alt="slide1">
-<img class="mySlides" src="img/slide2.jpg" alt="slide2">
-<img class="mySlides" src="img/slide3.jpg" alt="slide3">
+<p>Here is a most recent portfolio of my work as Creative Director of Drexel University</p>
+
+<div class="grid">
+ <img class="one" src="img/img1.jpg" alt="img1">
+ <img class="two" src="img/img2.jpg" alt="img2">
+ <img class="three" src="img/img3.jpg" alt="img3">
+ <img class="four" src="img/img4.jpg" alt="img4">
+ <img class="five" src="img/img5.jpg" alt="img5">
+ <img class="six" src="img/img6.jpg" alt="igm6">
+ <img class="seven" src="img/img7.jpg" alt="img7">
+ <img class="eight" src="img/img8.jpg" alt="img8">
+ <img class="nine" src="img/img9.jpg" alt="img9">
+</div>
 
 </div>	
 </div>

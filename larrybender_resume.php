@@ -140,21 +140,18 @@ while ($row = mysqli_fetch_assoc($result)) {
 		<li>2015 - Gold, Silver, Double Bronze</li>
 		<li>2016 - Double Silver</li>
 	</ul>
-
-</div>	
-</div>
-</div>	
-</div>
-
-<footer>
-	<div class="contactMe">
+<div class="contactMe">
 		<ul class="contactInfo">
 			<li>610-283-3381</li>
 			<li>larrybenderdesign@gmail.com</li>
 			<li>302 Flourtown Road, Lafayette Hill, PA, 19444</li>
 		</ul>	
-	</div>
-</footer>
+</div>
+
+</div>	
+</div>
+</div>	
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="main.js"></script>

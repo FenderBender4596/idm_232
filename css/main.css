@@ -1,8 +1,9 @@
 html {
-	background-color: #fff8e8;
 	max-width: 100%;
 	overflow-x: hidden;
 	height: auto;
+	font-size: 100%;
+	background: linear-gradient(rgb(255, 248, 232), rgb(247, 247, 247));
 
 }
 
@@ -88,10 +89,66 @@ a:hover {
 	font-family: 'Oswald', sans-serif;
 }
 
-.mySlides {
-	position: relative;
-	width: 100%;
-	top: -15px;
+.grid {
+  max-width: 100%;
+  margin: 0 5% 0 -5%;
+}
+
+.grid > div {
+  border: 2px solid rgb(127, 123, 130);
+  border-radius: 5px;
+  padding: 1em;
+
+}.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 1em%;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two { 
+  grid-column: 2 ;
+  grid-row: 1 ;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+}
+.four {
+  grid-column: 1;
+  grid-row: 2;
+}
+.five {
+  grid-column: 2;
+  grid-row: 2;
+}
+.six {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.seven {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.eight {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.nine {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+p {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
 }
 
 .listItems {
@@ -130,6 +187,7 @@ ul {
 	background-color: #172121;
 	width: 100%;
 	padding: 20px 0 20px 0;
+	margin-top: 10px;
 }
 
 .contactInfo {
@@ -221,9 +279,6 @@ h2 {
 	.textBox{
 		font-size: 36px;
 
-	}
-	.mySlides {
-		width: 60%;
 	}
 	.listItems {
 		font-size: 20px;
