@@ -39,7 +39,7 @@
 
 <div class="textBox">Creator, Designer, Leader</div>
 
-<p>Here is a most recent portfolio of my work as Creative Director of Drexel University</p>
+<p>Here is a most recent portfolio of my work as Creative Director of Drexel University<p>
 
 <div class="grid">
  <img class="one" src="img/img1.jpg" alt="img1">
